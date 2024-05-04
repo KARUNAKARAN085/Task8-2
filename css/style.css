@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(212, 212, 212);
+}
+.navbar{
+    background-color: rgb(26, 30, 33);
+}
+div.navdiv{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(26, 30, 33);
+}
+div.title{
+    color: rgb(226, 225, 225);
+}
+div.navdiv>img{
+    position: relative;
+    padding: 0px 0px 0px 10px;
+}
+div.navdiv>div{
+    font-weight: 500;
+    font-size: x-large;
+    padding: 10px 660px ;
+}
+div.repo{
+    margin: 80px;
+    background-color: rgb(26, 30, 33);
+    width: 20%;
+    height: 30%;
+    border: 10px;
+    border-radius: 15px;
+}
+
+div.body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.searchbar{
+    margin: 80px;
+    width: 50%;
+}
+
+div.three{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.three1{
+    background-color: aqua;
+    margin: 80px;
+    width: 30%;
+}
